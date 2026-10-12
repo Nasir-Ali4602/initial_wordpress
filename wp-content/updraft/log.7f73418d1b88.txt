@@ -1,0 +1,54 @@
+0000.011 () Opened log file at time: Mon, 04 May 2026 16:43:53 +0000 on http://localhost:10022
+0000.011 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.3 WP: 6.9.4 PHP: 8.2.29 (cgi-fcgi, Windows NT NASIRALISHAH 10.0 build 26200 (Windows 11) AMD64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.6M | 8M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.012 () Free space on disk containing Updraft's temporary directory: 362090.1 MB
+0000.053 () Restore setup, now closing connection and starting restore over AJAX.
+0000.010 () Opened log file at time: Mon, 04 May 2026 16:43:54 +0000 on http://localhost:10022
+0000.011 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.3 WP: 6.9.4 PHP: 8.2.29 (cgi-fcgi, Windows NT NASIRALISHAH 10.0 build 26200 (Windows 11) AMD64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.1M | 4M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.011 () Free space on disk containing Updraft's temporary directory: 362090 MB
+0000.012 () Ensuring WP_Filesystem is setup for a restore
+0000.014 () WP_Filesystem is setup and ready for a restore
+0000.024 () Restore job started. Entities to restore: plugins. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.033 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.040 () Entity: plugins
+0000.040 () restore_backup(backup_file=backup_2026-05-04-1603_EJF_5e8f0c687186-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:69:"C:\Users\Nasir\Local Sites\divi-testing\app\public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.041 () Unpacking backup... (backup_2026-05-04-1603_EJF_5e8f0c687186-plugins.zip, 26.4 MB)
+0000.046 () Unzipping backup_2026-05-04-1603_EJF_5e8f0c687186-plugins.zip to C:/Users/Nasir/Local Sites/divi-testing/app/public/wp-content/upgrade/54be9f51/ using UpdraftPlus_ZipArchive, starting index 0
+0001.341 () Unzip progress: 1374 out of 3487 files (32.5 KB, plugins/wordpress-seo/license.txt)
+0006.896 () Unzip progress: 2375 out of 3487 files (3.8 MB, plugins/wordpress-seo/admin/exceptions/class-file-size-exception.php)
+0011.295 () Unzip progress: 3376 out of 3487 files (39.3 MB, plugins/google-analytics-for-wordpress/lite/assets/vue/img/em-hero-image.jpg)
+0012.256 () Unzip progress: 3487 out of 3487 files (54.3 MB, plugins/google-analytics-for-wordpress/lite/assets/vue/js/chunks/html2canvas-6b47a9df.min.js)
+0012.262 () Moving old data: filesystem method / updraft_dir is potentially possible
+0012.263 () Moving old data: can potentially use wp_filesystem method / -old
+0012.266 () Moving old data out of the way...
+0012.948 () Top-level entities being moved: index.php, updraftplus
+0012.978 () Moving unpacked backup into place...
+0013.995 () Top-level entities being moved: child-theme-configurator, divi-builder, duplicate-page, easy-smooth-scroll-links, elements-ad-portfolio-filter-and-carousel-wordpress-plugin-WN9BM5Y-PLxfXgfy-08-26, elements-everest-gallery-W4AZNYP-RHiBPTpD-07-24, elfsight-google-maps-cc, google-analytics-for-wordpress, image-map-pro-wordpress, secure-custom-fields, site-scripts, updraftplus, updraftplus.2.16.22, upload-max-file-size, wordpress-seo, wp-file-manager, wp-headers-and-footers
+0014.030 () Cleaning up rubbish...
+0014.038 () restore_backup(backup_file=backup_2026-05-04-1603_EJF_5e8f0c687186-plugins2.zip, type=plugins, info=a:3:{s:4:"path";s:69:"C:\Users\Nasir\Local Sites\divi-testing\app\public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0014.039 () Unpacking backup... (backup_2026-05-04-1603_EJF_5e8f0c687186-plugins2.zip, 22.7 MB)
+0014.040 () Unzipping backup_2026-05-04-1603_EJF_5e8f0c687186-plugins2.zip to C:/Users/Nasir/Local Sites/divi-testing/app/public/wp-content/upgrade/41fa6350/ using UpdraftPlus_ZipArchive, starting index 0
+0018.674 () Unzip progress: 1002 out of 3244 files (26.6 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Plugin/Backoff/ExponentialBackoffStrategy.php)
+0023.587 () Unzip progress: 2003 out of 3244 files (52 MB, plugins/child-theme-configurator/screenshot-3.jpg)
+0028.026 () Unzip progress: 3004 out of 3244 files (67.1 MB, plugins/divi-builder/core/components/api/email/init.php)
+0029.296 () Unzip progress: 3244 out of 3244 files (75.7 MB, plugins/site-scripts/colorbox-master/example3/index.html)
+0029.303 () Moving unpacked backup into place...
+0032.232 () Top-level entities being moved: child-theme-configurator, divi-builder, easy-smooth-scroll-links, elements-ad-portfolio-filter-and-carousel-wordpress-plugin-WN9BM5Y-PLxfXgfy-08-26.zip, elfsight-google-maps-cc, google-analytics-for-wordpress, index.php, secure-custom-fields, site-scripts, updraftplus, wp-headers-and-footers
+0040.676 () Cleaning up rubbish...
+0040.687 () restore_backup(backup_file=backup_2026-05-04-1603_EJF_5e8f0c687186-plugins3.zip, type=plugins, info=a:3:{s:4:"path";s:69:"C:\Users\Nasir\Local Sites\divi-testing\app\public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0040.687 () Unpacking backup... (backup_2026-05-04-1603_EJF_5e8f0c687186-plugins3.zip, 25.5 MB)
+0040.689 () Unzipping backup_2026-05-04-1603_EJF_5e8f0c687186-plugins3.zip to C:/Users/Nasir/Local Sites/divi-testing/app/public/wp-content/upgrade/a0ef4c77/ using UpdraftPlus_ZipArchive, starting index 0
+0047.697 () Unzip progress: 1002 out of 2228 files (44.2 MB, plugins/divi-builder/dashboard/js/tinymce/js/tinymce/plugins/template/plugin.min.js)
+0052.453 () Unzip progress: 2003 out of 2228 files (67.4 MB, plugins/wp-file-manager/lib/themes/windows - 10/images/16px/upload.png)
+0054.091 () Unzip progress: 2228 out of 2228 files (76.2 MB, plugins/duplicate-page/js/editor-script.js)
+0054.108 () Moving unpacked backup into place...
+0056.697 () Top-level entities being moved: divi-builder, duplicate-page, elements-ad-portfolio-filter-and-carousel-wordpress-plugin-WN9BM5Y-PLxfXgfy-08-26, image-map-pro-wordpress, upload-max-file-size, wp-file-manager
+0061.572 () Cleaning up rubbish...
+0061.578 () restore_backup(backup_file=backup_2026-05-04-1603_EJF_5e8f0c687186-plugins4.zip, type=plugins, info=a:3:{s:4:"path";s:69:"C:\Users\Nasir\Local Sites\divi-testing\app\public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=1)
+0061.578 () Unpacking backup... (backup_2026-05-04-1603_EJF_5e8f0c687186-plugins4.zip, 1 MB)
+0061.580 () Unzipping backup_2026-05-04-1603_EJF_5e8f0c687186-plugins4.zip to C:/Users/Nasir/Local Sites/divi-testing/app/public/wp-content/upgrade/db063700/ using UpdraftPlus_ZipArchive, starting index 0
+0061.698 () Unzip progress: 21 out of 21 files (1.1 MB, plugins/upload-max-file-size/assets/img/team.jpg)
+0061.699 () Moving unpacked backup into place...
+0061.711 () Top-level entities being moved: upload-max-file-size
+0061.760 () Cleaning up rubbish...
+0062.724 () Restore successful!
+0062.724 () Restore successful

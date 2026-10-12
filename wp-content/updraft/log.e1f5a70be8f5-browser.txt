@@ -1,0 +1,9 @@
+0000.045 (R) [notice] Looking for themes archive: file name: backup_2026-05-04-1603_EJF_5e8f0c687186-themes.zip
+0000.047 (R) [notice] Archive is expected to be size: 21858.5 KB: OK
+0000.054 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.062 (R) [notice] Unpacking backup... (backup_2026-05-04-1603_EJF_5e8f0c687186-themes.zip, 21.3 MB)
+0003.840 (R) [notice] Unzip progress: 891 out of 891 files (24.7 MB, themes/ejfejf-child/gray-map-2.svg)
+0003.853 (R) [notice] Moving old data out of the way...
+0004.181 (R) [notice] Moving unpacked backup into place...
+0004.316 (R) [notice] Cleaning up rubbish...
+0004.385 (R) [notice] Restore successful!
